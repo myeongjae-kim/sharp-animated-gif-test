@@ -11,3 +11,9 @@ sharp("./homer.gif", { animated: true })
     .resize(100)
     .webp()
     .toFile("./homer-resized.webp");
+
+// convert heif to jpeg
+sharp("./sample1.heic", { animated: true })
+    .resize(100)
+    .jpeg()
+    .toFile("./sample1-resized.jpg");

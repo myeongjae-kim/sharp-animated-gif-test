@@ -3,6 +3,7 @@
 libvips 8.9버전 이상이 필요하다: https://github.com/lovell/sharp/pull/2012
 
 ```shell
+brew install libheif # heic -> jpg 변환을 위해서 필요
 brew install vips # 2021년 10월 21일 기준 libipvs 8.11버전이 설치됨.
 npm install
 node index.js # homer-resized.gif 파일 생성됨
